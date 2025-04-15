@@ -1,0 +1,463 @@
+export const quiz = [
+  {
+    id: "js_basics",
+    name: "JavaScript Basics",
+    questions: [
+      {
+        id: "q1",
+        question:
+          "What is the correct syntax for referring to an external script called 'script.js'?",
+        options: [
+          "A. <script name='script.js'>",
+          "B. <script href='script.js'>",
+          "C. <script src='script.js'>",
+          "D. <script file='script.js'>",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q2",
+        question: "Which company developed JavaScript?",
+        options: ["A. Microsoft", "B. Netscape", "C. Google", "D. Mozilla"],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q3",
+        question: "Inside which HTML element do we put the JavaScript?",
+        options: [
+          "A. <js>",
+          "B. <scripting>",
+          "C. <script>",
+          "D. <javascript>",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q4",
+        question: "How do you write 'Hello World' in an alert box?",
+        options: [
+          "A. alertBox('Hello World');",
+          "B. alert('Hello World');",
+          "C. msgBox('Hello World');",
+          "D. msg('Hello World');",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q5",
+        question: "How do you create a function in JavaScript?",
+        options: [
+          "A. function:myFunction()",
+          "B. function = myFunction()",
+          "C. function myFunction()",
+          "D. create myFunction()",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q6",
+        question: "How do you call a function named 'myFunction'?",
+        options: [
+          "A. call myFunction()",
+          "B. myFunction()",
+          "C. call function myFunction",
+          "D. execute myFunction()",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q7",
+        question: "How to write an IF statement in JavaScript?",
+        options: [
+          "A. if i = 5 then",
+          "B. if i == 5 then",
+          "C. if (i == 5)",
+          "D. if i = 5",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q8",
+        question: "How does a WHILE loop start?",
+        options: [
+          "A. while i = 1 to 10",
+          "B. while (i <= 10; i++)",
+          "C. while (i <= 10)",
+          "D. while i <= 10",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q9",
+        question: "How can you add a comment in JavaScript?",
+        options: [
+          "A. <!-- This is a comment -->",
+          "B. // This is a comment",
+          "C. ' This is a comment",
+          "D. # This is a comment",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q10",
+        question: "Which operator is used to assign a value to a variable?",
+        options: ["A. *", "B. -", "C. =", "D. =="],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+    ],
+  },
+
+  {
+    id: "react_basics",
+    name: "React Basics",
+    questions: [
+      {
+        id: "q1",
+        question: "What is the correct command to create a new React project?",
+        options: [
+          "A. npx create-react-app myApp",
+          "B. npm create-react myApp",
+          "C. npx create-react myApp",
+          "D. npm install react myApp",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q2",
+        question: "What does JSX stand for?",
+        options: [
+          "A. JavaScript XML",
+          "B. JSON XML",
+          "C. Java Syntax Extension",
+          "D. JavaScript Extension",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q3",
+        question: "What is used to pass data to components in React?",
+        options: ["A. setState", "B. props", "C. render", "D. useEffect"],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q4",
+        question:
+          "Which hook is used to manage state in a functional component?",
+        options: ["A. useEffect", "B. useState", "C. useRef", "D. useContext"],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q5",
+        question:
+          "What is the name of the tool used to take one component tree and render it to the DOM?",
+        options: ["A. ReactDOM", "B. Babel", "C. Webpack", "D. JSX"],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q6",
+        question:
+          "Which lifecycle method is called after a component is rendered?",
+        options: [
+          "A. componentDidMount",
+          "B. constructor",
+          "C. render",
+          "D. componentWillMount",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q7",
+        question: "How do you write an inline style in JSX?",
+        options: [
+          "A. style='color: red'",
+          "B. style={{color: 'red'}}",
+          "C. style=color:red",
+          "D. style='{{color: red}}'",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q8",
+        question: "Which of these is a valid useEffect syntax?",
+        options: [
+          "A. useEffect(() => {}, [])",
+          "B. useEffect(() => {}, {})",
+          "C. useEffect(() => {}, null)",
+          "D. useEffect(() => {})",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q9",
+        question: "What does the useEffect hook do?",
+        options: [
+          "A. Creates state variables",
+          "B. Sends HTTP requests",
+          "C. Performs side effects in components",
+          "D. Initializes props",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q10",
+        question: "How can you prevent a component from re-rendering?",
+        options: [
+          "A. By using memoization like React.memo",
+          "B. By using multiple useEffect hooks",
+          "C. By passing props again",
+          "D. By avoiding JSX",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+    ],
+  },
+
+  {
+    id: "react_advanced",
+    name: "React JS Advanced",
+    questions: [
+      {
+        id: "q1",
+        question: "What is the purpose of React’s `useMemo` hook?",
+        options: [
+          "A. To memoize functions",
+          "B. To persist state across renders",
+          "C. To cache the result of a computation",
+          "D. To manage side effects",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q2",
+        question: "How does `React.lazy` improve performance?",
+        options: [
+          "A. It defers rendering until data is fetched",
+          "B. It allows for lazy loading of components",
+          "C. It batches state updates",
+          "D. It reduces DOM re-renders",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q3",
+        question: "What will `useEffect(() => {}, [])` run?",
+        options: [
+          "A. After every render",
+          "B. Only once after the first render",
+          "C. Before the first render",
+          "D. After every state change",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q4",
+        question: "Why is `key` prop important in a list?",
+        options: [
+          "A. It helps with rendering performance",
+          "B. It prevents duplicate items",
+          "C. It ensures event handling works",
+          "D. It makes list items draggable",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q5",
+        question:
+          "Which hook is used to access context in a functional component?",
+        options: [
+          "A. useRef",
+          "B. useContext",
+          "C. useReducer",
+          "D. useCallback",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q6",
+        question: "What does `React.forwardRef` allow you to do?",
+        options: [
+          "A. Update a ref from a child component",
+          "B. Memoize a component",
+          "C. Access props from a parent",
+          "D. Expose refs to parent components",
+        ],
+        correctAnswer: "D",
+        timeLimit: 10,
+      },
+      {
+        id: "q7",
+        question: "What is the main use of `useReducer`?",
+        options: [
+          "A. To handle routing",
+          "B. To simplify prop drilling",
+          "C. To manage complex state logic",
+          "D. To replace Redux",
+        ],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q8",
+        question: "What’s the difference between `useCallback` and `useMemo`?",
+        options: [
+          "A. useMemo returns a memoized function; useCallback returns a value",
+          "B. useCallback returns a memoized function; useMemo returns a value",
+          "C. Both return memoized functions",
+          "D. Both are for memoizing DOM nodes",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q9",
+        question:
+          "What is the correct way to handle error boundaries in React?",
+        options: [
+          "A. Using `componentDidCatch` in class components",
+          "B. Using `useErrorBoundary` hook",
+          "C. Wrapping with `try/catch` blocks",
+          "D. All functional components are error boundaries",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q10",
+        question: "How can you prevent re-renders in functional components?",
+        options: [
+          "A. By using `React.memo`",
+          "B. By wrapping components in `StrictMode`",
+          "C. By using `shouldComponentUpdate`",
+          "D. By keeping all state in Redux",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+    ],
+  },
+
+  {
+    id: "flutter_basics",
+    name: "Flutter Basics",
+    questions: [
+      {
+        id: "q1",
+        question: "What language is primarily used to write Flutter apps?",
+        options: ["A. Java", "B. Kotlin", "C. Dart", "D. Swift"],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q2",
+        question:
+          "Which widget is used to layout children vertically in Flutter?",
+        options: ["A. Row", "B. Column", "C. Stack", "D. ListView"],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q3",
+        question: "Which method is the entry point of a Flutter app?",
+        options: ["A. start()", "B. main()", "C. run()", "D. init()"],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q4",
+        question: "Which widget is used for unscrollable text?",
+        options: ["A. TextField", "B. Text", "C. EditableText", "D. Input"],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q5",
+        question: "Which command is used to create a new Flutter project?",
+        options: [
+          "A. flutter init project_name",
+          "B. flutter create project_name",
+          "C. flutter new project_name",
+          "D. flutter start project_name",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q6",
+        question:
+          "Which widget is used to handle user interaction (like a tap)?",
+        options: [
+          "A. GestureDetector",
+          "B. Listener",
+          "C. Interactor",
+          "D. TouchArea",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+      {
+        id: "q7",
+        question: "Which widget helps in repeating widgets vertically?",
+        options: ["A. GridView", "B. Column", "C. ListView", "D. Stack"],
+        correctAnswer: "C",
+        timeLimit: 10,
+      },
+      {
+        id: "q8",
+        question: "What does the 'hot reload' feature in Flutter do?",
+        options: [
+          "A. Restarts the app from scratch",
+          "B. Rebuilds only modified code without losing state",
+          "C. Clears the build cache",
+          "D. Updates the emulator version",
+        ],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q9",
+        question: "Which widget provides padding around its child?",
+        options: ["A. Spacer", "B. Padding", "C. Margin", "D. Container"],
+        correctAnswer: "B",
+        timeLimit: 10,
+      },
+      {
+        id: "q10",
+        question:
+          "Which of the following is used to navigate between screens in Flutter?",
+        options: [
+          "A. Navigator.push()",
+          "B. Route.push()",
+          "C. Screen.push()",
+          "D. App.push()",
+        ],
+        correctAnswer: "A",
+        timeLimit: 10,
+      },
+    ],
+  },
+];
